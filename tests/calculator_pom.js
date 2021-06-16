@@ -33,5 +33,20 @@ it('addition test', function () {
 
     });
 
+it('addition demo test', function () {
+        // browser.get('https://juliemr.github.io/protractor-demo/');
+        homepage.getAppURL('https://juliemr.github.io/protractor-demo/')
+        expect(browser.getCurrentUrl()).toBe('https://juliemr.github.io/protractor-demo/');
+
+        homepage.enterFirstNumber('118')
+        homepage.enterSecondNumber('119')
+        browser.sleep(2000)
+        homepage.clickGo();
+
+        
+        browser.sleep(5000)
+
+    });
+
 
 });
