@@ -28,6 +28,9 @@ it('addition test', function () {
         browser.sleep(2000)
         homepage.clickGo();
 
+
+
+
         
         browser.sleep(5000)
 
