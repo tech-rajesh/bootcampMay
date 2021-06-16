@@ -11,9 +11,7 @@ describe('demo calulator test', function () {
         homepage.enterSecondNumber('9')
         browser.sleep(2000)
         homepage.clickGo();
-
-        
-        browser.sleep(2000)
+		browser.sleep(2000)
 
     });
 
